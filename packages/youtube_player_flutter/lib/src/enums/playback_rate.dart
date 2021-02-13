@@ -21,6 +21,9 @@ class PlaybackRate {
   /// Sets playback rate to 1.0 times.
   static const double normal = 1.0;
 
+  /// Sets playback rate to 0.875 times.
+  static const double eightSevenFive = 0.875;
+
   /// Sets playback rate to 0.75 times.
   static const double threeQuarter = 0.75;
 

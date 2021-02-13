@@ -63,10 +63,10 @@ class _PlaybackSpeedButtonState extends State<PlaybackSpeedButton> {
         _popUpItem('1.75x', PlaybackRate.oneAndAThreeQuarter),
         _popUpItem('1.5x', PlaybackRate.oneAndAHalf),
         _popUpItem('1.25x', PlaybackRate.oneAndAQuarter),
-        _popUpItem('Normal', PlaybackRate.normal),
+        _popUpItem('1.0x', PlaybackRate.normal),
+        _popUpItem('0.875x', PlaybackRate.eightSevenFive),
         _popUpItem('0.75x', PlaybackRate.threeQuarter),
         _popUpItem('0.5x', PlaybackRate.half),
-        _popUpItem('0.25x', PlaybackRate.quarter),
       ],
     );
   }
